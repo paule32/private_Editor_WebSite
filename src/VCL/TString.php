@@ -14,7 +14,7 @@ namespace VCL {
         public $parent = null;
         
         // ----------------------------------------------
-        // @brief This is the constructor of TScreen
+        // @brief This is the constructor of TString
         // ----------------------------------------------
         public function __construct($prev,$text)
         {

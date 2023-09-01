@@ -9,6 +9,8 @@
 // The VCL namespace will look like the Delphi VCL-Framework under Windows XP.
 // ----------------------------------------------------------------------------
 namespace VCL {
+    use \Exception;
+
     class EDivisionByZero extends \Exception {
         public function __construct(
             $message,
